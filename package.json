@@ -1,6 +1,5 @@
 {
-  "private": false,
-  "name": "vue-image-uploader",
+  "name": "vue-image-chooser",
   "version": "0.5.1",
   "description": "Simple Image Uploader for Vue",
   "main": "./dist/index.cjs.js",
@@ -11,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schumskie/vue-image-uploader.git"
+    "url": "git+https://github.com/schumskie/vue-image-chooser.git"
   },
   "scripts": {
     "dev": "vue serve NiceHandsomeButton.vue",
