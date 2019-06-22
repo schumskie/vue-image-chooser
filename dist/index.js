@@ -1,5 +1,5 @@
 /*!
- * vue-image-uploader v0.5.0
+ * vue-image-chooser v0.5.3
  * (c) Stefan Jeremić
  * Released under the ISC License.
  */
@@ -88,7 +88,7 @@ function _nonIterableSpread() {
 //
 //
 var script = {
-  name: "ImageUploader",
+  name: "ImageChooser",
   props: {
     name: {
       required: true,
@@ -168,7 +168,7 @@ var script = {
   }
 };
 
-var css = ".image-uploader[data-v-0c5b44cc]{cursor:pointer;display:flex;border:1px solid #aaa;border-radius:.5rem;box-shadow:0 0 5px 1px #aaa inset;flex-direction:column;justify-content:center;background:#fff;position:relative;overflow:hidden}.image-uploader label[data-v-0c5b44cc]{cursor:pointer;height:100%;box-sizing:border-box;padding-top:4rem;padding-bottom:1rem}.image-uploader p[data-v-0c5b44cc],.image-uploader svg[data-v-0c5b44cc]{display:block;color:#aaa;margin:0 auto}.image-uploader svg[data-v-0c5b44cc]{height:calc(100% - 8rem)}.image-uploader svg+p[data-v-0c5b44cc]{line-height:8rem;text-align:center}.image-uploader .progress-overlay[data-v-0c5b44cc]{height:100%;transition:all .3s;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,.5);color:#aaa;bottom:0;text-align:center;position:absolute}.image-uploader .overlay[data-v-0c5b44cc]{opacity:0;transition:all .3s;width:100%;background:rgba(0,0,0,.5);color:#fff;bottom:0;display:flex;align-items:center;justify-content:center;position:absolute;height:100%}.image-uploader[data-v-0c5b44cc]:hover{box-shadow:0 0 10px 1px #ccc inset}.image-uploader:hover label[data-v-0c5b44cc]{opacity:.5}.image-uploader:hover .overlay[data-v-0c5b44cc]{opacity:1}.image-uploader ul.errors[data-v-0c5b44cc]{margin:0;padding:0;list-style:none;position:absolute;bottom:0;width:100%;background:red}.image-uploader ul.errors li[data-v-0c5b44cc]{color:#fff}";
+var css = ".image-uploader[data-v-27ec874c]{cursor:pointer;display:flex;border:1px solid #aaa;border-radius:.5rem;box-shadow:0 0 5px 1px #aaa inset;flex-direction:column;justify-content:center;background:#fff;position:relative;overflow:hidden}.image-uploader label[data-v-27ec874c]{cursor:pointer;height:100%;box-sizing:border-box;padding-top:4rem;padding-bottom:1rem}.image-uploader p[data-v-27ec874c],.image-uploader svg[data-v-27ec874c]{display:block;color:#aaa;margin:0 auto}.image-uploader svg[data-v-27ec874c]{height:calc(100% - 8rem)}.image-uploader svg+p[data-v-27ec874c]{line-height:8rem;text-align:center}.image-uploader .progress-overlay[data-v-27ec874c]{height:100%;transition:all .3s;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,.5);color:#aaa;bottom:0;text-align:center;position:absolute}.image-uploader .overlay[data-v-27ec874c]{opacity:0;transition:all .3s;width:100%;background:rgba(0,0,0,.5);color:#fff;bottom:0;display:flex;align-items:center;justify-content:center;position:absolute;height:100%}.image-uploader[data-v-27ec874c]:hover{box-shadow:0 0 10px 1px #ccc inset}.image-uploader:hover label[data-v-27ec874c]{opacity:.5}.image-uploader:hover .overlay[data-v-27ec874c]{opacity:1}.image-uploader ul.errors[data-v-27ec874c]{margin:0;padding:0;list-style:none;position:absolute;bottom:0;width:100%;background:red}.image-uploader ul.errors li[data-v-27ec874c]{color:#fff}";
 styleInject(css);
 
 /* script */
@@ -254,7 +254,7 @@ var __vue_staticRenderFns__ = [];
 var __vue_inject_styles__ = undefined;
 /* scoped */
 
-var __vue_scope_id__ = "data-v-0c5b44cc";
+var __vue_scope_id__ = "data-v-27ec874c";
 /* module identifier */
 
 var __vue_module_identifier__ = undefined;
@@ -265,7 +265,7 @@ var __vue_is_functional_template__ = false;
 
 /* style inject SSR */
 
-var ImageUploader = __vue_normalize__({
+var ImageChooser = __vue_normalize__({
   render: __vue_render__,
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, undefined, undefined);
@@ -274,7 +274,7 @@ var index = {
   install: function install(Vue, options) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("vue-image-uploader", ImageUploader);
+    Vue.component("vue-image-chooser", ImageChooser);
   }
 };
 
