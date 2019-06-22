@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: "ImageUploader",
+  name: "ImageChooser",
   props: {
     name: {
       required: true,
