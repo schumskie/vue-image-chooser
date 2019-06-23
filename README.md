@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     uploadFile(file) {
-      this.progres = 0;
+      this.progress = 0;
       let formData = new FormData();
       formData.append('image', file);
       var config = {
