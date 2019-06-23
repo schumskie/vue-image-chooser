@@ -74,6 +74,6 @@ The component emits `change` event with single file as data, when it recieve an 
 
 ## Example:
 https://schumskie.github.io/vue-image-chooser/
+
 ## NOTE:
 Component by default has width of 100%. Because of that it should put in holder of desired width. 
-
