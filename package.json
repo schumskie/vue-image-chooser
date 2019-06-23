@@ -1,6 +1,6 @@
 {
   "name": "vue-image-chooser",
-  "version": "0.5.9",
+  "version": "0.5.10",
   "description": "Simple Image Uploader for Vue",
   "main": "dist/index.js",
   "keywords": [
@@ -23,6 +23,8 @@
   "license": "ISC",
   "devDependencies": {
     "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.0.4",
     "rollup-plugin-vue": "^5.0.0",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"

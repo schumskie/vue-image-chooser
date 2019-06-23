@@ -14,32 +14,7 @@
         <vue-image-chooser name="image-uploader" :progress="progress" @change="uploadImage"></vue-image-chooser>
         </div>
     </div>
-   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-   <script src="https://unpkg.com/vue-image-chooser"></script>
-   <script>
+   <script src="./index.js"></script>
    
-   Vue.use(VueImageChooser)
-   new Vue({
-       el: '#app',
-       data: {
-        progress: null
-       },
-       methods: {
-           uploadImage: function (file) {
-                //Simulate progress
-                var self = this; 
-                self.progress = 0;
-                var handler = setInterval(function () {
-                    self.progress +=10;
-                    if (self.progress > 100) {
-                        self.progress = null;
-                        clearInterval(handler);
-                    }
-                }, 300);
-
-           }
-       }
-   })
-   </script>
 </body>
 </html>
