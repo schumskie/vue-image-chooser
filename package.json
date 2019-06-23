@@ -1,6 +1,6 @@
 {
   "name": "vue-image-chooser",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Simple Image Uploader for Vue",
   "main": "dist/index.js",
   "keywords": [

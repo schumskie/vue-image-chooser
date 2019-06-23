@@ -1,15 +1,12 @@
-import vue from 'rollup-plugin-vue'
-import commonjs from 'rollup-plugin-commonjs';
+import vue from "rollup-plugin-vue";
+import commonjs from "rollup-plugin-commonjs";
 
 export default {
-   input: 'src/index.js',
+  input: "src/index.js",
   output: {
-   name: 'VueImageChooser',
-    format: 'iife',
-    file: 'dist/index.js'
+    name: "VueImageChooser",
+    format: "cjs",
+    file: "dist/index.js"
   },
-  plugins: [
-    commonjs(),
-    vue(/* options */)
-  ]
-}
+  plugins: [commonjs(), vue(/* options */)]
+};
