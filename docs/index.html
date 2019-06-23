@@ -7,6 +7,39 @@
     <title>Document</title>
 </head>
 <body>
-   OVo je n bezvesze 123
+    <div id="app">
+        <p style="text-align:center">Click on image bellow to upload image. Image is not uploaded anywhere because we dont use API, so progress is simulated</p>
+        <div style="width:320px;margin:0 auto;">
+
+        <vue-image-chooser name="image-uploader" :progress="progress" @change="uploadImage"></vue-image-chooser>
+        </div>
+    </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+   <script src="../dist/index.js"></script>
+   <script>
+   
+   Vue.use(VueImageChooser)
+   new Vue({
+       el: '#app',
+       data: {
+        progress: null
+       },
+       methods: {
+           uploadImage: function (file) {
+                //Simulate progress
+                var self = this; 
+                self.progress = 0;
+                var handler = setInterval(function () {
+                    self.progress +=10;
+                    if (self.progress > 100) {
+                        self.progress = null;
+                        clearInterval(handler);
+                    }
+                }, 300);
+
+           }
+       }
+   })
+   </script>
 </body>
 </html>
