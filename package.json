@@ -1,6 +1,6 @@
 {
   "name": "vue-image-chooser",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "description": "Simple Image Uploader for Vue",
   "main": "dist/library.esm.js",
   "keywords": [
