@@ -63,12 +63,13 @@ export default {
 
 ## Usage
 
-The component takes four props:
+The component takes five props:
 
 - `name` (String): Required prop, must be unique (you can consider it like id)
 - `progress` (Number): Number between `0-100`. If it is `null` or `100` component consider uploading process finished.
 - `error` (String): Error message in case that server responded with error
 - `height` (String): Default is `350px`
+- `displayname` (String): Default is `Add Photo` - text that appears below the camera image
 
 The component emits `change` event with single file as data, when it recieve an image, after it can be uploaded as described above)
 
