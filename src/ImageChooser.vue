@@ -34,7 +34,7 @@
           </g>
         </g>
       </svg>
-      <p v-if="!src">{{ displayname }}</p>
+      <p v-if="!src">{{ displayName }}</p>
       <div v-if="uploading" class="progress-overlay">
         <span>{{ progress }} %</span>
       </div>
@@ -71,7 +71,7 @@ export default {
       type: String,
       default: "350px"
     },
-    displayname: {
+    displayName: {
       type: String,
       default: "Add Photo"
     },
