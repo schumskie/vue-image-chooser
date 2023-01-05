@@ -25,7 +25,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-globals": "^1.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-vue": "^5.1.9",
+    "rollup-plugin-vue": "^6.0.0",
     "sass-loader": "^10.1.1",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
